@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidGuide</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_activity2">Terminology</string>
+    <string name="term">Terminology</string>
+    <string name="web">WebSties</string>
+    <string name="help">help</string>
+    <string name="about">about</string>
+    <string name="title_activity_main_activity3">WebSites</string>
+    <string name="title_activity_main_activity4">Help</string>
+    <string name="title_activity_main_activity5">About</string>
+    <string name="name">YunJeong,Heo</string>
+    <string name="prog">Computer Programming Analysis</string>
+    <string name="desterm">The terminology button allows you to link to the page which is to research the
+    terminology of android studio from lab1 and lab2</string>
+    <string name="desweb">The websites button allows you to go to the android tutorial websites directly.</string>
+    <string name="instruct_term">Enter the terminology of android studio.</string>
+    <string name="instruct_web">Click on one of the following links</string>
+
+    <string-array name="list_of_terminology">
+        <item>Android Debug Bridge</item>
+        <item>Emulator</item>
+        <item>Screen shot2</item>
+        <item>Gradle</item>
+        <item>pm</item>
+        <item>Lint</item>
+        <item>Project</item>
+        <item>Panel</item>
+        <item>toolbar</item>
+        <item>status bar</item>
+        <item>preview pane</item>
+        <item>android pane</item>
+        <item>project explorer</item>
+        <item>.idea folder</item>
+        <item>intelligence</item>
+        <item>module</item>
+        <item>live layout</item>
+        <item>init</item>
+        <item>commit</item>
+        <item>push</item>
+        <item>add</item>
+        <item>pull</item>
+        <item>branch</item>
+        <item>clone</item>
+    </string-array>
+    <string-array name="terminology_array">
+        <item>Android Debug Bridge communicates with an emulator, for example using "adb install" command, it connects to client
+	which runs on your development machine, and a shell is the place to communicate between clients and devices.</item>
+        <item>Lint is a tool which finds errors in your codes and explain the problems, such as perfomence, usability and version
+	compatibility. "gradle lint" command creates a lint report.</item>
+        <item>Emulator is a virtual mobile device, you can test and run  applications without using actual physical devices.
+	For example "emulator adv name of your VD t (target) b(binary interface)" is a command for creating virtual devices.</item>
+        <item>Screen shot2 is a program creating image sources; it takes a picture like camera does, so you can make a image of your
+	current window or current works on the screen.</item>
+        <item>Gradle is a build tool which can customize your projects. it allows you to use command line and to build your own
+	applications from Androids studio. For example ,you can set up various versions or configuration of your projects,
+	in "build.gradle" file.</item>
+        <item>pm is a command to manage  android packages within an adb shell. It allows you to delete packages and to list
+	packages installed on your device. </item>
+        <item>project is the current work in progress, as well as the final program.It is the application that the developer wants to create.</item>
+        <item>Panel presents the devices and view of your application output. You can adjust images or layout
+		esliy without considering coding for measuring each android device models screen sizes, types.</item>
+         <item>toolbar, Android studio allows to use customizable toolbar which you can access tools easily, such as saving,
+  		opening, synchronizing files, undoing, redoing the previous actions, running application and creating VM directly etc.</item>
+        <item>status bar, It shows the current running process information, such as encoding format of the file and corresponding messages for changed activities.</item>
+        <item>Preview pane allows you to preview the layout on devices on the right side of the window when
+ 		you are editing in the text view. You can modify layout theme and look at different device skins.</item>
+        <item>android pane, Each Android Models has different sizes and types.the pane allows to display multiple views. There are two types of pane in Android,
+		single pane is only able to show another view on separated window, but the previous view still is running on background.
+		Muilti pane is able to show another view and current view on the same window.</item>
+        <item>project explorer gives an overview of the project and allows the user to see the basic details, and can be used to organize and color
+            code different folders and files within the project.</item>
+        <item>.idea folder contains a set of configuration files. For example, compiler.xml, encoding.xml, and moduls.xml contains
+ 		configuration information, such as names and locations, compiler seeing and its component modules.</item>
+        <item>intelligence, this feature helps to speed up development by minimizing the mount of memorization required from the programmer,
+            and reducing the number of key strokes. It also minimizes errors or types and other mistakes. It is a form of auto completion,
+		 like the auto correct on a smart phone keyboard.</item>
+        <item>Module is a component of an application. Each modules has an individual function which can build, test, and
+		debug independently.</item>
+        <item>Live layout allows you to preview at the same time when you edit text or xml layout without running emulator or
+                on devices.</item>
+        <item>init, Initializes a git repository and creates the initial ".git" directory in a new or in an existing project.</item>
+        <item>commit, Takes all of the changes written in the index, creates a new commit object pointing to it and allows the user to add a note or an explanation. </item>
+        <item>push, Updates the modified local objects to the remote repository.</item>
+        <item>add, Adds files changes or contents in your working directory to your index.</item>
+        <item>pull, Fetches the files from the remote repository or merges it with your local branch. </item>
+        <item>branch, Lists existing branches. Creates a new branch if a branch name is provided. Deletes existing branches. </item>
+        <item>clone, Make a repository copy from a remote source into new directory. </item>
+
+    </string-array>
+    <string-array name="weblist_array">
+        <item>http://developer.android.com</item>
+        <item>http://www.codelearn.org</item>
+        <item>http://www.vogella.com</item>
+        <item>http://androidituts.com</item>
+        <item>http://www.mkyong.com</item>
+        <item>http://www.javatpoint.com</item>
+        <item>http://www.tutorialspoint.com</item>
+        <item>http://www.androidaspect.com</item>
+        <item>http://developer.xamarin.com</item>
+        <item>http://androidituts.com</item>
+        <item>http://tutorials.jenkov.com</item>
+        <item>http://www.sitepoint.com</item>
+    </string-array>
+
+</resources>
